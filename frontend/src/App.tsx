@@ -1,7 +1,7 @@
 import React from 'react';
-import Navbar from "./Component/Navbar"
+import Navbar  from './Component/Navbar';
 import './App.css';
-import Footer from './Component/Footer';
+import {Footer} from './Component/Footer';
 import AllRoutes from './Routes/AllRoutes';
 
 function App() {
