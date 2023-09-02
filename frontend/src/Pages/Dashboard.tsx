@@ -1,5 +1,6 @@
 import React from 'react'
 import video from "../images/video.mp4"
+import Home from './Home'
 const Dashboard = () => {
   return (
     <div>
@@ -26,8 +27,10 @@ const Dashboard = () => {
           
           </div>
         </div>
+       
+     
       </div>
-      
+       <div> <Home /></div>
     </div>
 
   )
