@@ -11,15 +11,10 @@ const Home: React.FC = () => {
 
   const imageStyle = {
     maxWidth: '15%'
-  };
-
-    
+  }
   return (
     <div>
-      <div style={containerStyle}>
-      <img className="mt-0" src={logo} alt="Centered Image"/>
-    </div>
-      <div className="mx-auto max-w-2xl py-10 sm:py-10 lg:py-10 mt-0"> {/* Updated mt-0 to mt-16 */}
+      <div className="mx-auto max-w-2xl py-10 sm:py-10 lg:py-10 mt-10"> {/* Updated mt-0 to mt-16 */}
         <div className="text-center">
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl" >
             Level Up Your Interview Game with AI!

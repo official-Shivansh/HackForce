@@ -15,7 +15,7 @@ const Dashboard = () => {
             muted
             loop
           ></video>
-          <div
+          {/* <div
             style={{
               height: "90px",
               position: "relative",
@@ -25,7 +25,7 @@ const Dashboard = () => {
             }}
           >
           
-          </div>
+          </div> */}
         </div>
        
      
