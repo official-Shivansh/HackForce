@@ -16,6 +16,7 @@ const Home: React.FC = () => {
     
   return (
     <div>
+      
       <div style={containerStyle}>
       <img src={logo} alt="Centered Image" style={imageStyle} />
     </div>
