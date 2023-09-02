@@ -11,9 +11,7 @@ const Home: React.FC = () => {
 
   const imageStyle = {
     maxWidth: '15%'
-  };
-
-    
+  }
   return (
     <div>
       <div className="mx-auto max-w-2xl py-10 sm:py-10 lg:py-10 mt-10"> {/* Updated mt-0 to mt-16 */}
